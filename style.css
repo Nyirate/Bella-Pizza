@@ -1,0 +1,48 @@
+/* Extra small */
+@media only screen and (max-width:600px){
+
+}
+/* Small */
+@media only screen and (min-width:600px){
+
+}
+/* Medium */
+@media only screen and (min-width:768px){
+
+}
+/* Large */
+@media only screen and (min-width:992px){
+
+}
+/* Extra */
+@media only screen and (min-width:1200px){
+
+}
+body{
+  margin:5px;
+  padding:5px;
+  border:5px;
+}
+.img{
+  width:100%;
+  position: relative;
+  opacity:0.7;
+}
+.word{
+  color:black;
+  position:absolute;
+  top:30%;
+  margin-left:30%;
+  font-weight:bold;
+  font-size:80px;
+  height:200px;
+}
+.sizing{
+  margin-left:30%;
+}
+.topping{
+  margin-left:30%;
+}
+.crust{
+  margin-left:30%;
+}
