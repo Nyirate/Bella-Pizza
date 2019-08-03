@@ -66,6 +66,8 @@ $(document).ready(function(){
    var topping=$('#spine').val(); + " " + "prix=300Ksh"
    console.log(topping)
   }
+
+  // pizza crust
   if($('#cris:checked').val()){
     var prices= '1000Ksh';
    var crust=$('#cris').val(); + " " + "prix=1000Ksh"
@@ -81,6 +83,20 @@ $(document).ready(function(){
    var crust=$('#glut').val(); + " " + "prix=1500Ksh"
    console.log(crust)
   }
+
+  // pizza delivery
+  if($('#no:checked').val()){
+   var choice=$('#no').val();
+   console.log(choice)
+  }
+  if($('#yes:checked').val()){
+   var choice=$('#yes').val();
+   console.log(choice)
+  }
+  // pizza number
+  var number=$('select#number').val();
+  console.log(number);
+
   });
 });
 
