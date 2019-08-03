@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://code.jquery.com/jquery-3.4.1.min.js">
-  <title>Bella Pizza</title>
-</head>
-<body>
-  <h1>Bella Pizza</h1>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.4.1.min.js">                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    <title>Bella Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-sm-12">
+        <img class="img" src="https://cdn.hipwallpaper.com/i/70/16/6wnZcz.jpg">
+        <p class="word">Bella Pizza</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div id="order">
+        <h1 style="font-weight:bold;font-size:50px;margin-left:30%;">PIZZA SIZE</h1>
+        <br>
+        <p style="font-size:30px;margin-left:30%;">Please select the size you want</p>
+        <br>
+        <form class="sizing">
+          <label for="small">Small</label>
+          <input type="radio" name="size" id="small" value="small">
+          <label for="medium">Medium</label>
+          <input type="radio" name="size" id="medium" value="medium">
+          <label for="large">Large</label>
+          <input type="radio" name="size" id="large" value="large">
+        </form>
+        <br>
+        <h2 style="font-weight:bold;font-size:50px;margin-left:30%;">PIZZA TOPPINGS</h2>
+        <br>
+        <p style="font-size:30px;margin-left:30%;">Please select the topping you want</p>
+        <br>
+        <form class="topping">
+          <label for="pepperoni">Pepperoni</label>
+          <input type="radio" name="toppings" id="pep" value="Pepperoni">
+          <label for="onions">Onions</label>
+          <input type="radio" name="toppings" id="oni" value="Onions">
+          <label for="sausage">Sausage</label>
+          <input type="radio" name="toppings" id="saus" value="Sausage">
+          <label for="bacon">Bacon</label>
+          <input type="radio" name="toppings" id="bac" value="Bacon">
+          <label for="cheese">Cheese</label>
+          <input type="radio" name="toppings" id="ches" value="Cheese">
+          <label for="pineapple">Pineapple</label>
+          <input type="radio" name="toppings" id="pine" value="Pineapple">
+          <label for="spinach">Spinach</label>
+          <input type="radio" name="toppings" id="spin" value="Spinach"> 
+        </form>
+        <br>
+        <h3 style="font-weight:bold;font-size:50px;margin-left:30%;">PIZZA CRUSTS</h3>
+        <br>
+        <p style="font-size:30px;margin-left:30%;">Please select the crust you prefer</p>
+        <br>
+        <form class="crust">
+          <label for="crispy">Crispy</label>
+          <input type="radio" name="crusts" id="cris" value="Crispy">
+          <label for="stuffed">Stuffed</label>
+          <input type="radio" name="crusts" id="stuf" value="Stuffed">
+          <label for="glutten-free">Gluten-free</label>
+          <input type="radio" name="crusts" id="glut" value="Gluten-free">
+        </form>
+        <br>
+        <h4 style="font-weight:bold;font-size:50px;margin-left:30%;">NUMBER OF PIZZA YOU WANT</h4>
+        <br>
+        <p style="font-size:30px;margin-left:30%;">Enter the number of pizza you want</p>
+        <label for="number" style="margin-left:30%;">
+          <input type="number" id="piznum" name="number" min="1" max="12">
+        </label>
+        <br>
+      </div>
+    </div>
+    
+  </body>
 </html>
