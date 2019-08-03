@@ -87,15 +87,63 @@ $(document).ready(function(){
   // pizza delivery
   if($('#no:checked').val()){
    var choice=$('#no').val();
+   var price1= '0Ksh'
    console.log(choice)
   }
   if($('#yes:checked').val()){
    var choice=$('#yes').val();
+   var price1='500Ksh'
    console.log(choice)
   }
   // pizza number
-  var number=$('select#number').val();
-  console.log(number);
+  if($('#one:checked').val()){
+  var num=$('#one').val();
+  console.log(num);
+  }
+  if($('#two:checked').val()){
+    var num=$('#two').val();
+    console.log(num);
+  }
+  if($('#three:checked').val()){
+    var num=$('#three').val();
+    console.log(num);
+  }
+    if($('#four:checked').val()){
+      var num=$('#four').val();
+      console.log(num);
+    }
+      if($('#five:checked').val()){
+        var num=$('#five').val();
+        console.log(num);
+    }
+    if($('#six:checked').val()){
+      var num=$('#six').val();
+      console.log(num);
+      }
+    if($('#seven:checked').val()){
+      var num=$('#seven').val();
+      console.log(num);
+      }
+    if($('#eight:checked').val()){
+      var num=$('#eight').val();
+      console.log(num);
+      }
+    if($('#nine:checked').val()){
+      var num=$('#nine').val();
+      console.log(num);
+      }
+    if($('#ten:checked').val()){
+      var num=$('#ten').val();
+       console.log(num);
+      }
+    if($('#eleven:checked').val()){
+      var num=$('#eleven').val();
+      console.log(num);
+      }
+    if($('#twelve:checked').val()){
+      var num=$('#twelve').val();
+      console.log(num);
+      }  
 
   });
 });
