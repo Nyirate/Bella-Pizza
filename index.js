@@ -31,120 +31,77 @@ $(document).ready(function(){
    }
 
   //  pizza toppings
+
   if($('#pep:checked').val()){
     var price= '400Ksh';
-   var topping=$('#pep').val(); + " " + "prix=400Ksh"
+   var topping=$('#pep').val(); + " " + "price=400Ksh"
    console.log(topping)
   }
   if($('#oni:checked').val()){
     var price= '200Ksh';
-   var topping=$('#oni').val(); + " " + "prix=200Ksh"
+   var topping=$('#oni').val(); + " " + "price=200Ksh"
    console.log(topping)
   }
   if($('#saus:checked').val()){
     var price= '600Ksh';
-   var topping=$('#saus').val(); + " " + "prix=600Ksh"
+   var topping=$('#saus').val(); + " " + "price=600Ksh"
    console.log(topping)
   }
   if($('#bac:checked').val()){
     var price= '450Ksh';
-   var topping=$('#bac').val(); + " " + "prix=450Ksh"
+   var topping=$('#bac').val(); + " " + "price=450Ksh"
    console.log(topping)
   }
   if($('#ches:checked').val()){
     var price= '500Ksh';
-   var topping=$('#ches').val(); + " " + "prix=500Ksh"
+   var topping=$('#ches').val(); + " " + "price=500Ksh"
    console.log(topping)
   }
   if($('#pine:checked').val()){
     var price= '500Ksh';
-   var topping=$('#pine').val(); + " " + "prix=500Ksh"
+   var topping=$('#pine').val(); + " " + "price=500Ksh"
    console.log(topping)
   }
   if($('#spine:checked').val()){
     var price= '300Ksh';
-   var topping=$('#spine').val(); + " " + "prix=300Ksh"
+   var topping=$('#spine').val(); + " " + "price=300Ksh"
    console.log(topping)
   }
 
   // pizza crust
   if($('#cris:checked').val()){
     var prices= '1000Ksh';
-   var crust=$('#cris').val(); + " " + "prix=1000Ksh"
+   var crust=$('#cris').val(); + " " + "prices=1000Ksh"
    console.log(crust)
   }
   if($('#stuf:checked').val()){
     var prices= '1200Ksh';
-   var crust=$('#stuf').val(); + " " + "prix=1200Ksh"
+   var crust=$('#stuf').val(); + " " + "prices=1200Ksh"
    console.log(crust)
   }
   if($('#glut:checked').val()){
     var prices= '1500Ksh';
-   var crust=$('#glut').val(); + " " + "prix=1500Ksh"
+   var crust=$('#glut').val(); + " " + "prices=1500Ksh"
    console.log(crust)
   }
 
   // pizza delivery
   if($('#no:checked').val()){
-   var choice=$('#no').val();
+   var choice=$('#no').val();  + " " + "price1=0Ksh"
    var price1= '0Ksh'
    console.log(choice)
   }
   if($('#yes:checked').val()){
-   var choice=$('#yes').val();
+   var choice=$('#yes').val();  + " " + "price1=500Ksh"
    var price1='500Ksh'
    console.log(choice)
   }
   // pizza number
-  if($('#one:checked').val()){
-  var num=$('#one').val();
-  console.log(num);
-  }
-  if($('#two:checked').val()){
-    var num=$('#two').val();
-    console.log(num);
-  }
-  if($('#three:checked').val()){
-    var num=$('#three').val();
-    console.log(num);
-  }
-    if($('#four:checked').val()){
-      var num=$('#four').val();
-      console.log(num);
-    }
-      if($('#five:checked').val()){
-        var num=$('#five').val();
-        console.log(num);
-    }
-    if($('#six:checked').val()){
-      var num=$('#six').val();
-      console.log(num);
-      }
-    if($('#seven:checked').val()){
-      var num=$('#seven').val();
-      console.log(num);
-      }
-    if($('#eight:checked').val()){
-      var num=$('#eight').val();
-      console.log(num);
-      }
-    if($('#nine:checked').val()){
-      var num=$('#nine').val();
-      console.log(num);
-      }
-    if($('#ten:checked').val()){
-      var num=$('#ten').val();
-       console.log(num);
-      }
-    if($('#eleven:checked').val()){
-      var num=$('#eleven').val();
-      console.log(num);
-      }
-    if($('#twelve:checked').val()){
-      var num=$('#twelve').val();
-      console.log(num);
-      }  
-
+  var number=$("select#num").val();
+  console.log(number);
+  
+  var sum=parseInt(prix)+parseInt(price)+parseInt(prices)+parseInt(price1);
+  console.log(sum)
   });
 });
 
