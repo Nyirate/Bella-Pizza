@@ -22,7 +22,13 @@ body{
   margin:5px;
   padding:5px;
   border:5px;
-  background-image: url("https://cdn.hipwallpaper.com/i/70/16/6wnZcz.jpg")
+}
+.two{
+  background-image: url("https://images5.alphacoders.com/381/381504.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:1000px;
+  padding-top: 10%;
 }
 .word{
   color:black;
@@ -32,13 +38,13 @@ body{
   height:200px;
 }
 .sizing{
-  margin-left:30%;
+  margin-left:20%;
 }
 .topping{
-  margin-left:30%;
+  margin-left:20%;
 }
 .crust{
-  margin-left:30%;
+  margin-left:20%;
 }
 .foot{
   color:beige;
