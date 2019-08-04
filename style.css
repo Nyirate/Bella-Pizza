@@ -19,11 +19,11 @@
 
 }
 body{
-  margin:5px;
-  padding:5px;
-  border:5px;
+  margin:0;
+  padding:0;
+  border:0;
 }
-.two{
+#two{
   background-image: url("https://images5.alphacoders.com/381/381504.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,6 +36,7 @@ body{
   font-weight:bold;
   font-size:80px;
   height:200px;
+  padding-top:5%;
 }
 .sizing{
   margin-left:20%;
@@ -49,4 +50,10 @@ body{
 .foot{
   color:beige;
   margin-left:40%;
+}
+.intro{
+  background-image: url("https://images8.alphacoders.com/369/369063.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:800px;
 }
