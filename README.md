@@ -20,7 +20,7 @@
 
   To have access on this project use the following commands:
   
-  git clone https://github.com/Nyirate/Delani-Studio-project
+  git clone https://nyirate.github.io/Bella-Pizza/
 
   
 # Known Bugs
@@ -37,9 +37,7 @@
 
 # Support and contact details
 
-  Problems,questions,ideas or advice;find me on https://github.com/Nyirate/Delani-Studio-project
-
-
+  Problems,questions,ideas or advice;find me on  https://nyirate.github.io/Bella-Pizza/
   Approved by Moringa School
 
 
