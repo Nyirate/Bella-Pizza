@@ -11,14 +11,18 @@
     <title>Bella Pizza</title>
   </head>
   <body>
+    <nav>
+      <a class="active" href="#two"></a>
+    </nav>
     <div class="intro">
-      <h1 class="word">Bella Pizza</h1>
+      <img src="images/logo.png" class="logo">
+      <p style="font-size:30px;margin-left:30%;color:black;margin-top:10%;font-weight:bold;"><em>Taste your imagination,</em></p>
       <br>
-      <p>Taste your imagination</p>
+      <p style="font-size:30px;margin-left:30%;color:black;font-weight:bold;"><em>We provide beautiful and tasty pizza.</em></p>
       <br>
-      <p>We provide beautiful and tasty pizza..Try us,you want regret!</p>
+      <p style="font-size:30px;margin-left:30%;color:black;font-weight:bold;"><em>Try us,you want regret!</em></p>
       <br>
-      <button type="button" style="font-size:15px;margin-left:20%;font-weight:bold;">ORDER NOW</button>
+      <a href="#two"><img src="images/order.png" class="order"></a>
     </div>
     <br>
     <!-- <div class="container">
@@ -27,13 +31,13 @@
         
       <!-- </div> -->
       
-      <div class="two">
-        <div class="well" style="width:80%;margin-left:10%;background-color:white;opacity:0.6;border-radius:5%;">
+      <div id="two">
+        <div class="well" style="width:80%;margin-left:10%;background-color:white;opacity:0.8;border-radius:5%;">
           <!-- <header style="font-weight:bold;font-size:40px;margin-left:20%;color: black;text-decoration: underline;">ORDER NOW</header>
           <br> -->
-          <h1 style="font-weight:bold;font-size:40px;margin-left:20%;">PIZZA SIZE</h1>
+          <h1 style="font-weight:bold;font-size:40px;margin-left:20%;color:black;">PIZZA SIZE</h1>
           
-          <p style="font-size:20px;margin-left:20%;">Please select the size you want</p>
+          <p style="font-size:20px;margin-left:20%;color:black;">Please select the size you want</p>
           
           <form class="sizing">
             <label for="small">Small</label>
@@ -44,9 +48,9 @@
             <input type="radio" name="size" id="large" value="large">
           </form>
           <br>
-          <h2 style="font-weight:bold;font-size:40px;margin-left:20%;">PIZZA TOPPINGS</h2>
+          <h2 style="font-weight:bold;font-size:40px;margin-left:20%;color:black;">PIZZA TOPPINGS</h2>
           
-          <p style="font-size:20px;margin-left:20%;">Please select the toppings you want</p>
+          <p style="font-size:20px;margin-left:20%;color:black;">Please select the toppings you want</p>
           
           <form class="topping">
             <label for="pepperoni">Pepperoni</label>
@@ -65,9 +69,9 @@
             <input type="radio" name="toppings" id="spin" value="Spinach"> 
           </form>
           <br>
-          <h3 style="font-weight:bold;font-size:40px;margin-left:20%;">PIZZA CRUSTS</h3>
+          <h3 style="font-weight:bold;font-size:40px;margin-left:20%;color:black;">PIZZA CRUSTS</h3>
           
-          <p style="font-size:20px;margin-left:20%;">Please select the crust you prefer</p>
+          <p style="font-size:20px;margin-left:20%;color:black;">Please select the crust you prefer</p>
           
           <form class="crust">
             <label for="crispy">Crispy</label>
@@ -78,9 +82,9 @@
             <input type="radio" name="crusts" id="glut" value="Gluten-free">
           </form>
           <br>
-          <h4 style="font-weight:bold;font-size:40px;margin-left:20%;">NUMBER OF PIZZA YOU WANT</h4>
+          <h4 style="font-weight:bold;font-size:40px;margin-left:20%;color:black;">NUMBER OF PIZZA YOU WANT</h4>
           
-          <p style="font-size:20px;margin-left:20%;">Enter the number of pizza you want</p>
+          <p style="font-size:20px;margin-left:20%;color:black;">Enter the number of pizza you want</p>
             <select style="margin-left:20%;"id="num">
               <option></option>
               <option id="one">1</option>
@@ -97,9 +101,9 @@
               <option id="twelve">12</option>
             </select>
           <br>
-          <h5 style="font-weight:bold;font-size:40px;margin-left:20%;">DELIVERY</h5>
+          <h5 style="font-weight:bold;font-size:40px;margin-left:20%;color:black;">DELIVERY</h5>
           
-          <p style="font-size:20px;margin-left:20%;">Do you want pizza delivery?</p>
+          <p style="font-size:20px;margin-left:20%;color:black;">Do you want pizza delivery?</p>
           
           <form class="deliver" style=" margin-left:20%;">
             <label for="no">No</label>
@@ -108,7 +112,7 @@
             <input type="radio" name="choice" id="yes" value="yes">
           </form>
           <br>
-          <button type="button" id="ordre" style="font-size:15px;margin-left:20%;font-weight:bold;">YOUR ORDER</button>
+          <button type="button" id="ordre" style="font-size:15px;margin-left:20%;font-weight:bold;color:black;">YOUR ORDER</button>
         </div>
         <div class="foot">Copyright@BellaPizza2019</div>
       </div>
