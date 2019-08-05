@@ -18,7 +18,7 @@
 @media only screen and (min-width:1200px){
 
 }
-body{
+*{
   margin:0;
   padding:0;
   border:0;
@@ -27,16 +27,8 @@ body{
   background-image: url("https://images5.alphacoders.com/381/381504.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:1000px;
+  height:1020px;
   padding-top: 10%;
-}
-.word{
-  color:black;
-  margin-left:30%;
-  font-weight:bold;
-  font-size:80px;
-  height:200px;
-  padding-top:5%;
 }
 .sizing{
   margin-left:20%;
@@ -52,8 +44,60 @@ body{
   margin-left:40%;
 }
 .intro{
-  background-image: url("https://images8.alphacoders.com/369/369063.jpg");
+  background-image: url("http://paperlief.com/images/pizza-slice-wallpaper-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height:800px;
 }
+.order{
+  height: 30px;
+  margin-left:30%;
+}
+.logo{
+	margin: 5px 50px;
+  height: 89px;
+  width:200px;
+}
+ul {
+  list-style-type: none;
+  margin-top: none;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  /* float:right; */
+}
+#myorder{
+  background:grey;
+}
+/* #an{
+
+} */
+#comm{
+  display: none;
+}
+.T{
+  display: none;
+  float: left;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.foot{
+  /* margin-top:5%; */
+  color:black;
+}
+
+
